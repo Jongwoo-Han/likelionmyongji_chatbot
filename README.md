@@ -1,1 +1,8 @@
-# likelionmyongji_chatbot
+MJU(Seoul) x Likelion ChatBot
+-----------------------------
+
+### 1. INFO
+
+---
+
+명지대학교(서울) 멋쟁이 사자처럼 페이스북 페이지의 관리를 위해 고안된 챗봇 프로젝트 레파지토리입니다.
