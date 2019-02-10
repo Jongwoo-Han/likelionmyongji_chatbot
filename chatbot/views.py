@@ -9,7 +9,7 @@ from django.utils.decorators import method_decorator
 
 
 #  ------------------------ Fill this with your page access token! -------------------------------
-PAGE_ACCESS_TOKEN = "EAAEYZClBnc0YBAIzr5cKepzIs1IGZCW5xDXDvR9OTDyFnmvL7kyaxDv9D9vIfyRxxtpwV1NxYbKEXIQaPJhAC5ZBL7RDLjZB1qyjTXFXZBAkTxJmUdGCLa51LYTjhQ8h2d7Ixz9fG2v5hGLmFCpFZAm6YK22ZB0XItfFvT97cb8VAZDZD"
+PAGE_ACCESS_TOKEN = "EAAEYZClBnc0YBACZAW0ZAusiH0NEqTDKQ02bcWPPCTRCjxy2KdSEX9Wivo3TKnaQLNYZA9KEDGBm5XBHKcZByGPO0tZAKM5eywTfOZBE2sCCltfvXNaun5FPz204PZAJvpfaLWaoF8WywksuvjWoOFk7xnzGQl2ahjiuMrfGZB3eoISCisFTm4Wek"
 VERIFY_TOKEN = "1234567890"
 
 
@@ -35,7 +35,7 @@ def post_facebook_message(fbid, recevied_message):
         question_text = "안녕하세요, 명지대학교(서울)\n멋쟁이 사자처럼 챗봇입니다.\na. 활동 기간\nb. 모집 대상\nc. 모집 일정\nd. 1학기 운영 계획\ne. 멋쟁이 사자처럼 일정\n중 한 가지 알파벳을 입력해주세요."
 
     '''
-    # 유저 이름 출력(오류 발생, 구현 예정)    
+    # 유저 이름 출력(오류 발생, 구현 예정)
     user_details_url = "https://graph.facebook.com/v2.6/%s"%fbid
     user_details_params = {'fields':'first_name,last_name,profile_pic', 'access_token':PAGE_ACCESS_TOKEN}
     user_details = requests.get(user_details_url, user_details_params).json()
