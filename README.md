@@ -21,7 +21,7 @@ MJU(Seoul) x Likelion ChatBot
 -	b. 모집 대상
 -	c. 모집 일정
 -	d. 1학기 운영 계획
--	e. 멋쟁이 사자처럼 일정
+-	e. 지원 방법
 -	f. 자세한 문의
 
 ---
