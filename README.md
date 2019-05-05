@@ -9,7 +9,7 @@ MJU(Seoul) x Likelion ChatBot
 
 명지대학교(서울) 멋쟁이 사자처럼 페이스북 페이지의 관리를 위해 고안된 django 기반 챗봇
 
-[DEMO] [https://m.me/likelionMJU](https://m.me/likelionMJU)
+[Demo] [https://m.me/likelionMJU](https://m.me/likelionMJU)
 
 ### 2. 응답
 
