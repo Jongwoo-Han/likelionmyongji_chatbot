@@ -1,7 +1,7 @@
 MJU(Seoul) x Likelion ChatBot
 -----------------------------
 
-![Version](https://img.shields.io/badge/Version-2.0.0-green.svg) ![Likelion](https://img.shields.io/badge/Likelion-MJU(Seoul)-informational.svg)
+![Version](https://img.shields.io/badge/Version-2.0.0-green.svg) ![Build](https://img.shields.io/badge/Build-Passing-success.svg) ![Likelion](https://img.shields.io/badge/Likelion-MJU(Seoul)-9cf.svg) ![License](https://img.shields.io/badge/License-MIT-informational.svg)
 
 ### 1. INFO
 
