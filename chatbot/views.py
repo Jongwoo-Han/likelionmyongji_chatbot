@@ -11,7 +11,7 @@ from konlpy.tag import Kkma
 
 
 #  ------------------------ Fill this with your page access token! -------------------------------
-PAGE_ACCESS_TOKEN = "EAAEYZClBnc0YBALJOSz1ZCcJBtpca1IzKRVdbu5ivrdHQ6CZC0ZBBBCTbNPPjyuT3e3nBJMzi2bUZCR33YMhpEKitayYic9w7MT1whUDhER4igC1i4ZBMSop6esJbegEbdOk7Pkf2F1sTO2S3yogOLgWgJGvVZCf6Y7AzrYx8RWcEWltHTH6pkM"
+PAGE_ACCESS_TOKEN = "EAAEYZClBnc0YBAKrSryGEMQZA8kjtzXmREmWXLQ115vxxVRtWzSRNRZBgSEQWZBgVGK2BwEnHEj9yuUoNFLe9zQtsqG0WeAiYhKAuFvhPqPFV5c5iVZBi6KY7dfZBPhzLydO7zmWKlzuwCV6r7Kv4zJN9ZBhVM6XJU7xZBn1AgrmCHnjViaKHW3ZC"
 VERIFY_TOKEN = "1234567890"
 
 
