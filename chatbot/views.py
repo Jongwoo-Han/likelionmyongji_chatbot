@@ -28,7 +28,7 @@ questions = {
 def post_facebook_message(fbid, recevied_message):
     # Find questions in sentence
     question_text = ''
-    tokens = ["기간", "대상", "모집", "활동", "지원", "문의", "mju"]
+    tokens = list(questions.keys())
     for token in tokens:
         if recevied_message.find(token) != -1:
             question_ans = random.choice(questions[token])
