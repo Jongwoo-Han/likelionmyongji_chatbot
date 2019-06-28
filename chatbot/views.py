@@ -7,8 +7,6 @@ from django.http.response import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 
-from konlpy.tag import Kkma
-
 
 #  ------------------------ Fill this with your page access token! -------------------------------
 PAGE_ACCESS_TOKEN = "EAAEYZClBnc0YBAKrSryGEMQZA8kjtzXmREmWXLQ115vxxVRtWzSRNRZBgSEQWZBgVGK2BwEnHEj9yuUoNFLe9zQtsqG0WeAiYhKAuFvhPqPFV5c5iVZBi6KY7dfZBPhzLydO7zmWKlzuwCV6r7Kv4zJN9ZBhVM6XJU7xZBn1AgrmCHnjViaKHW3ZC"
@@ -28,14 +26,14 @@ questions = {
 
 # Helper function
 def post_facebook_message(fbid, recevied_message):
-    # Use KoNLPy
-    kkma = Kkma()
-    tokens = kkma.morphs(recevied_message)
+    # Find questions in sentence
     question_text = ''
+    tokens = ["기간", "대상", "모집", "활동", "지원", "문의", "mju"]
     for token in tokens:
-        if token in questions:
+        if recevied_message.find(token) != -1:
             question_ans = random.choice(questions[token])
             question_text += question_ans + "\n\n"
+
     if not question_text:
         question_text = "안녕하세요, 명지대학교(서울)\n멋쟁이 사자처럼 챗봇입니다.\n기간, 대상, 모집, 활동, 지원, 문의\n중에서 원하는 키워드를 넣어서\n질문해주세요."
 
