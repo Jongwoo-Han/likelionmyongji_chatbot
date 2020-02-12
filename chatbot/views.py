@@ -9,7 +9,7 @@ from django.utils.decorators import method_decorator
 
 
 #  ------------------------ Fill this with your page access token! -------------------------------
-PAGE_ACCESS_TOKEN = "EAAEYZClBnc0YBACyy4uwrYByyVkDVZBtV6GZB8CZAQJLjusQ5CuRSuzHih4CdUJV7nHGfZBDzCqKM1Xiaes1dd2lrZBbtWgHaXUl4Mn7ZBqakPRHC9TnqGyQ0ITtwOxiaQvjjOMfisHS1drTk38OWv5szkFPZCMwwzjYddcbZCTeUMiv5mqd6jtjF"
+PAGE_ACCESS_TOKEN = "EAAEYZClBnc0YBAH0ZBqQza8zwu24sCSnUlMGKpZBscUFUr3CWdkFRIy7lr0s6rIGWCzWzqP0DRvCBL3n8PXBGwcjZCZCfAzyjXI3keLeKvPKDjKu2xguQsznFAeXoJCW2juqf6VmWFUa18EF8QW0yrSZBoUiZARu03BSZAMYdhfZAHwZDZD"
 VERIFY_TOKEN = "1234567890"
 
 
